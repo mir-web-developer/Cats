@@ -1,0 +1,56 @@
+.App {
+  margin: 0;
+  padding: 0;
+  /* background: url("./images/bg.png") center top/cover; */
+  /* background-image: url(); */
+  display: grid;
+
+  grid-template-areas:
+    "title title title"
+    "card card card";
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    margin: 0;
+    padding: 0;
+    /* background: url("./images/bg.png") center top/cover; */
+    /* background-image: url(); */
+    display: grid;
+    grid-gap: 40px 0px;
+    grid-template-areas:
+      "title"
+      "card";
+  }
+}
+@media only screen and (max-width: 768px) {
+  .App {
+    margin: 0;
+    padding: 0;
+    /* background: url("./images/bg.png") center top/cover; */
+    /* background-image: url(); */
+    display: grid;
+    grid-template-areas:
+      "title title title"
+      "card card "
+      ". card .";
+  }
+}
+
+.title {
+  grid-area: title;
+  text-align: center;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 100;
+  font-family: Exo2.0-Thin, AdobeInvisFont, MyriadPro-Regular;
+}
+body {
+  background-image: url("/images/bg.png");
+  -webkit-box-shadow: inset 0px 0px 159px 57px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 159px 57px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 159px 57px rgba(0, 0, 0, 0.75);
+  margin: 0;
+  padding: 0;
+  height: 750px;
+}

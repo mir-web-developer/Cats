@@ -1,0 +1,80 @@
+.Card {
+  cursor: pointer;
+  width: 321px;
+  height: 481px;
+  background-color: #fff;
+  border: 4px solid #1698D9;
+  margin: 0 auto;
+  border-radius: 10px;
+  border-top-left-radius: 45px;
+  background: white url("/images/cat.png") no-repeat -20px 220px;
+  background-size: 350px;
+  color: black;
+}
+.wrep {
+  padding-left: 50px;
+  line-height: 0.3;
+}
+.Card:hover {
+opacity: 0.9;
+}
+
+
+.itemName {
+  font-size: 16px;
+  text-align: left;
+  color: #666666;
+}
+
+.title {
+  font-size: 48px;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.desc {
+  font-size: 24px;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+}
+
+.portion {
+  width: 112px;
+  line-height: 1;
+  word-wrap: break-word;
+  color: #666666;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.weight {
+  width: 82px;
+  height: 82px;
+  background-color: #1698D9;
+color:#ffffff;
+text-align: center;
+vertical-align: middle;
+border-radius: 50%;
+font-size: 48px;
+position: relative;
+left: 230px;
+top:180px
+
+
+}
+
+.kg {
+  line-height: 0;
+  line-height: 0.5;
+  font-size: 24px;
+}
+
+.text {
+  font-size: 13px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  top: 220px;
+}
